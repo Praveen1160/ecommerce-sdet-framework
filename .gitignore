@@ -1,0 +1,29 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+!.env.example
+
+# Test results
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
