@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce-sdet-framework",
+  "version": "1.0.0",
+  "description": "An end-to-end Software Quality Engineering portfolio project demonstrating UI automation, API testing, database validation, performance testing and CI/CD integration.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Praveen1160/ecommerce-sdet-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Praveen1160/ecommerce-sdet-framework/issues"
+  },
+  "homepage": "https://github.com/Praveen1160/ecommerce-sdet-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0"
+  }
+}
